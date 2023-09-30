@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoofdpagina</title>
 </head>
 
 <body>
@@ -48,56 +48,49 @@
     Pas het hier toe:
     dit is commentaar
 
-    <h2>Hyperlinks</h2>
-    Via attributen kunnen we extra informatie aan tags meegeven. Attributen krijgen een waarde mee die tussen dubbele quotes geschreven worden.
+    <h2 id="titelHyperlinks">Hyperlinks</h2>
+    <p>Via attributen kunnen we extra informatie aan tags meegeven. Attributen krijgen een waarde mee die tussen dubbele quotes geschreven worden.</p>
 
-    Via het attribuut href kunnen we bijvoorbeeld de bestemming van hyperlinks bepalen.
+    <p>Via het attribuut href kunnen we bijvoorbeeld de bestemming van hyperlinks bepalen.</p>
 
     <h3>Linken naar een andere webpagina</h3>
-    Via de tag a en basisattribuut href kunnen we een hyperlink leggen naar een andere webpagina. Gebruik hiervoor volgende code.
+    <p>Via de tag a en basisattribuut href kunnen we een hyperlink leggen naar een andere webpagina. Gebruik hiervoor volgende code.</p>
 
     &lt;a href=&quot;http://www.howest.be&quot;&gt;Howest website&lt;/a&gt;
 
     <p>Voorbeeld: <a href="http://www.howest.be">Howest website</a></p>
 
     <h3>Linken naar een interne webpagina</h3>
-    Staat het bestand in dezelfde directory als het huidige document, dan hoef je slechts de naam van het bestand op te nemen.
+    <p>Staat het bestand in dezelfde directory als het huidige document, dan hoef je slechts de naam van het bestand op te nemen.</p>
 
-    Staat het bestand in een subdirectory van de huidige directory, dan geef je eerst de namen van de achtereenvolgende subdirectories met achter elke naam een slash en daarna de naam van het bestand:
+    <p>Staat het bestand in een subdirectory van de huidige directory, dan geef je eerst de namen van de achtereenvolgende subdirectories met achter elke naam een slash en daarna de naam van het bestand:</p>
 
-    &lt;a href=&quot;lijsten/orderedlist.html&quot;&gt;geordende lijst&lt;/a&gt;:
+    <p>&lt;a href=&quot;lijsten/orderedlist.html&quot;&gt;geordende lijst&lt;/a&gt;: <a href="lijsten/orderedlist.html"> geordende lijst</a></p>
 
-    Pas het hier toe:
-    Link naar geordende lijst
+    <p> Bevindt het bestand zich in een hogere directory dan de huidige, dan neem je voor elke stap omhoog een slash voorafgegaan door twee puntjes op:</p>
 
-    Bevindt het bestand zich in een hogere directory dan de huidige, dan neem je voor elke stap omhoog een slash voorafgegaan door twee puntjes op:
-
-    &lt;a href=&quot;../index.html&quot;&gt;test&lt;/a&gt;
+    <p>&lt;a href=&quot;../index.html&quot;&gt;test&lt;/a&gt;</p>
 
     <h3>Linken naar interne bookmarks</h3>
-    We kunnen ook een link leggen in onze pagina zelf, dit zijn bookmarks. Hiervoor moeten we een id of een identiteit meegeven aan de verschillende onderdelen. Op die manier kunnen we via een bookmark linken naar die bepaalde onderdelen.
+    <p>We kunnen ook een link leggen in onze pagina zelf, dit zijn bookmarks. Hiervoor moeten we een id of een identiteit meegeven aan de verschillende onderdelen. Op die manier kunnen we via een bookmark linken naar die bepaalde onderdelen.</p>
 
-    Om bijvoorbeeld een header een id mee te geven gebruiken we volgende code: &lt;h2 id=&quot;titelHyperlinks&quot;&gt;Hyperlinks&lt;/h2&gt;
+    <p>Om bijvoorbeeld een header een id mee te geven gebruiken we volgende code: &lt;h2 id=&quot;titelHyperlinks&quot;&gt;Hyperlinks&lt;/h2&gt;</p>
 
-    Via een bookmark kunnen we naar dit onderdeel springen:
-    &lt;a href=&quot;#titelHyperlinks&quot;&gt;Spring&lt;/a&gt; naar de titel Hyperlinks.
+    <p> Via een bookmark kunnen we naar dit onderdeel springen: &lt;a href=&quot;#titelHyperlinks&quot;&gt;Spring&lt;/a&gt; naar de titel Hyperlinks. <a href="#titelHyperlinks">Spring naar de titel Hyperlinks</a></p>
 
-    Pas het hier toe:
-    Spring naar de titel Hyperlinks
+    <p>
+        We kunnen ook verwijzen naar bookmarks op andere webpagina's:
+        &lt;a href=&quot;eenvoudigeTabel.html#rijtitels&quot;&gt;Spring naar rijtitels van de pagina eenvoudige tabel&lt;/a&gt;
 
-    We kunnen ook verwijzen naar bookmarks op andere webpagina's:
-    &lt;a href=&quot;eenvoudigeTabel.html#rijtitels&quot;&gt;Spring naar rijtitels van de pagina eenvoudige tabel&lt;/a&gt;
-
-    Pas het hier toe:
-    Spring naar rijtitels van de pagina eenvoudige tabel
+        <a href="eenvoudigeTabel.html#rijtitels">Spring naar rijtitels van de pagina eenvoudige tabel</a>
+    </p>
 
     <h3>Mailen naar een emailadres</h3>
-    We kunnen ook een mail versturen. Gebruik hiervoor volgende code.
+    <p>We kunnen ook een mail versturen. Gebruik hiervoor volgende code.</p>
 
-    &lt;a href=&quot;mailto:voornaam.naam@howest.be&quot;&gt;Mail naar Voornaam Naam&lt;/a&gt;
-
-    Pas het hier toe:
-    Mail naar Voornaam Naam&
+    <p>
+        &lt;a href=&quot;mailto:voornaam.naam@howest.be&quot;&gt;Mail naar Voornaam Naam&lt;/a&gt; <a href="mailto:anouchka.thijs@student.howest.be">Mail naar Voornaam Naam</a>
+    </p>
 
     <h2>Tooltip</h2>
     ---------
